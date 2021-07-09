@@ -68,9 +68,9 @@ We can use a JSON formatting site to make more sense of this (https://jsonformat
 
 Here we can find the hiearchy for `json_attributes_path` 
 We can define this using a period (dot) to include the next child.
-Example: `json_attributes_path: "$.result.status.heaters"`
+Example: `json_attributes_path: "$.result.status.heaters.available_sensors"`
 
 We can also see the following attributes from **heaters** in another sensor
-* temperature_sensor raspberry_pi
-* heater_bed
-* extruder
+* "temperature_sensor raspberry_pi"
+* "heater_bed"
+* "extruder"
