@@ -5,9 +5,9 @@ This is a simple guide to getting data from your 3d printer, which uses Klipper 
 I'd advise against running HA and klipper on the same computer - I wouldnt want HA to interfere with the real-time-like processing of Klipper.
 
 Links:
-Klipper: https://www.klipper3d.org/
-Moonraker: https://github.com/Arksine/moonraker
-Home Assistant: https://www.home-assistant.io/
+* Klipper: https://www.klipper3d.org/
+* Moonraker: https://github.com/Arksine/moonraker
+* Home Assistant: https://www.home-assistant.io/
 
 ## Prerequisistes
 
