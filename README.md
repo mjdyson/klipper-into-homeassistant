@@ -19,7 +19,7 @@ Links:
 
 ## Instructions
 
-1) [Create Klipper.yaml](../main/Create%20klipper%20file.md) - this will be used to store the sensor
+1) [Create klipper.yaml](../main/Create%20klipper%20file.md) - this will be used to store the sensor
 2) Edit configuration.yaml to reference your new klipper.yaml file
 3) Edit klipper.yaml
 4) Restart HA and start adding sensors to the UI
