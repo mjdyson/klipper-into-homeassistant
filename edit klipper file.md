@@ -62,7 +62,14 @@ http://192.168.1.10:7125/printer/objects/query?**heaters**
 This query returns
 ```{"result": {"status": {"heaters": {"available_sensors": ["temperature_sensor raspberry_pi", "heater_bed", "extruder"], "available_heaters": ["heater_bed", "extruder"]}}, "eventtime": 4866.209659858}}```
 
-We can therefore use the following attributes from **heaters** in another sensor
+We can use a JSON formatting site to make more sense of this (https://jsonformatter.org/)
+
+![alt text](https://github.com/mjdyson/klipper-into-homeassistant/blob/main/images//formatted_json.png?raw=true)
+
+Here we can see that the hierarchy for `json_attributes_path` is a hierarchy that we can define using a period (dot) to include the next child.
+`json_attributes_path: "$.result.status.heaters"`
+
+We can also use the following attributes from **heaters** in another sensor
 * temperature_sensor raspberry_pi
 * heater_bed
 * extruder
